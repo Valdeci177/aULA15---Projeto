@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciamento de Contatos</h1>
+        
+        <!-- Formulário para adicionar novos contatos -->
+        <section id="add-contact-section">
+            <h2>Adicionar Novo Contato</h2>
+            <form id="add-contact-form">
+                <input type="text" id="name" placeholder="Nome" required>
+                <input type="tel" id="phone" placeholder="Telefone" required>
+                <input type="email" id="email" placeholder="E-mail" required>
+                <button type="submit">Adicionar Contato</button>
+            </form>
+        </section>
+
+        <!-- Lista de contatos -->
+        <section id="contacts-section">
+            <h2>Lista de Contatos</h2>
+            <ul id="contacts-list"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
